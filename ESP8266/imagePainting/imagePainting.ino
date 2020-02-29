@@ -1,10 +1,10 @@
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-#define STA       // Decomment this to use STA mode instead of AP
+//#define STA       // Decomment this to use STA mode instead of AP
 //#define DNS       // Decomment this to use DNS
 //#define DEBUGER     // Decomment this to debug the code
-#define BUTTON      // Decomment this to use BUTTON
-#define FEATURE DotStarBgrFeature // Neopixels : NeoGrbFeature / Dotstars : DotStarBgrFeature
-#define METHOD DotStarSpiMethod // Neopixels :Neo800KbpsMethod / Dotstars : DotStarSpiMethod
+//#define BUTTON      // Decomment this to use BUTTON
+#define FEATURE NeoGrbFeature // Neopixels : NeoGrbFeature / Dotstars : DotStarBgrFeature
+#define METHOD NeoEsp8266Uart1800KbpsMethod  // Neopixels :Neo800KbpsMethod / Dotstars : DotStarSpiMethod
 //Dotstars : DATA_PIN : MOSI / CLOCK_PIN :SCK (Wemos D1 mini DATA_PIN=D7(GREEN) CLOCK_PIN=D5 (Yellow))
 //Neopixels : DATA_PIN : RDX0/GPIO3 (Wemos D1 mini DATA_PIN=RX)
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
