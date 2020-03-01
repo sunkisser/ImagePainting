@@ -82,13 +82,13 @@ var Piechart = function(options){
 			if (this.options.doughnutHoleSize){
 				var offset = (pieRadius * this.options.doughnutHoleSize ) / 2;
 				labelX = this.canvas.width/2 + (offset + pieRadius / 2) * Math.cos(start_angle + slice_angle/2);
-				labelY = this.canvas.height/2 + (offset + pieRadius / 2) * Math.sin(start_angle + slice_angle/2);               
+				labelY = this.canvas.height/2 + (offset + pieRadius / 2) * Math.sin(start_angle + slice_angle/2);
 			}
 
 			var labelText = Math.round(100 * val / total_value);
-			this.ctx.fillStyle = "white";
+			this.ctx.fillStyle = "blue";
 			this.ctx.font = "bold 20px Arial";
-			this.ctx.fillText(labelText+"%", labelX,labelY);
+			this.ctx.fillText(labelText+"% ("+val+"B) ", labelX,labelY);
 			start_angle += slice_angle;
 		}
 
