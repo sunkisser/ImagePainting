@@ -20,7 +20,7 @@
 #endif
 
 // LED --------------
-const int NUMPIXELS = 119;
+const int NUMPIXELS = 144;
 NeoPixelBus<FEATURE, METHOD> STRIP(NUMPIXELS);
 // end LED -----------
 
