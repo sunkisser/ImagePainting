@@ -75,7 +75,7 @@
 		<splash qualifier="port-xxxhdpi" src="res/screen/android/splash-port-xxxhdpi.png"/>
 	</platform>
 
-	<preference name="SplashScreenDelay" value="1000" />
+	<preference name="SplashScreenDelay" value="500" />
 
 	<access origin="*" />
 	<allow-navigation href="*" />
